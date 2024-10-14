@@ -3,20 +3,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='FG/static/styles.css') }}">
-    <link rel="stylesheet" href="FG/static/styles.css"> <!-- 新增的链接 -->
+    <link rel="stylesheet" href="static/styles.css"> <!-- 更新的 CSS 文件路径 -->
 </head>
 <body>
     <nav aria-label="Main Navigation">
-    <div class="logo">
-        <img src="logo.jpg" alt="Logo" class="logo-img">
-    <ul>
-        <li><a href="{{ https://938hj.github.io/franchise-capital.github.io/about_us.html }}">About Us</a></li>
-        <li><a href="{{ our_team.html }}">Our Team</a></li>
-        <li><a href="{{ portfolios.html }}">Portfolios</a></li>
-        <li><a href="{{ news_and_events.html }}">News and Events</a></li>
-    </ul>
-</nav>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo" class="logo-img"> <!-- 更新的 Logo 路径 -->
+        </div>
+        <ul>
+            <li><a href="about_us.html">About Us</a></li> <!-- 更新的链接 -->
+            <li><a href="our_team.html">Our Team</a></li>
+            <li><a href="portfolios.html">Portfolios</a></li>
+            <li><a href="news_and_events.html">News and Events</a></li>
+        </ul>
+    </nav>
     <header id="main-header">
         <h1>Invest in innovations with Franchise</h1>
     </header>
