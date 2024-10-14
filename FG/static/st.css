@@ -1,0 +1,7 @@
+main {
+    margin: 20px; /* 增加边际空隙 */
+}
+.content-text {
+    font-size: 1.2em; /* 增大字号 */
+    line-height: 1.6; /* 增大行距 */
+}
